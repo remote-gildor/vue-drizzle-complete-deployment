@@ -6,7 +6,6 @@ This project shows a complete deployment on a blockchain (a public testnet). The
 
 ## TODO
 
-- Deploy the smart contract code to a public testnet (Ropsten/Kovan/Rinkeby/Goerli)
 - Deploy the Vue dApp on GH Pages or smth similar
 
 ## Install npm packages
@@ -20,6 +19,18 @@ Make sure Ganache is running on port **7545**.
 ## Truffle
 
 Before you start the Vue dApp, you need to migrate smart contracts to the chain: `truffle migrate`.
+
+## Deployment to a public chain
+
+```bash
+truffle migrate --network goerli
+```
+
+If you're getting a `Callback was already called` error, try with the `--skipDryRun` flag:
+
+```bash
+truffle migrate --network goerli --skipDryRun
+```
 
 ## Vue dApp
 
@@ -38,4 +49,8 @@ See examples of tests [here](https://github.com/remote-gildor/vue-drizzle-crowds
 ## Verify smart contract on Etherscan
 
 - Install this npm tool: https://github.com/rkalis/truffle-plugin-verify 
-- Tutorial: https://kalis.me/verify-truffle-smart-contracts-etherscan/ 
+- Tutorial (you need to create Etherscan API key): https://kalis.me/verify-truffle-smart-contracts-etherscan/ 
+
+```bash
+truffle run verify Value --network goerli
+```

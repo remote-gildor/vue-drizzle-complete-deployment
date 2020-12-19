@@ -15,9 +15,13 @@
     "url": "https://github.com/remote-gildor/vue-drizzle-complete-deployment"
   },
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "truffle-hdwallet-provider": "^1.0.17"
+  },
   "devDependencies": {
     "@openzeppelin/test-helpers": "^0.5.9",
-    "chai": "^4.2.0"
+    "chai": "^4.2.0",
+    "truffle-plugin-verify": "^0.5.2"
   }
 }

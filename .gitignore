@@ -5,6 +5,7 @@ vapp/public/
 vapp/src/contracts/*
 
 # local env files
+.env
 .env.local
 .env.*.local
 
