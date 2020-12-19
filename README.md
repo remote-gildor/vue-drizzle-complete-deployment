@@ -4,10 +4,6 @@
 
 This project shows a complete deployment on a blockchain (a public testnet). The Vue front-end will be uploaded on GitHub Pages.
 
-## TODO
-
-- Deploy the Vue dApp on GH Pages or smth similar
-
 ## Install npm packages
 
 Run `npm install` command in both root folder and the `vapp` folder.
@@ -56,3 +52,35 @@ See examples of tests [here](https://github.com/remote-gildor/vue-drizzle-crowds
 ```bash
 truffle run verify Value --network goerli
 ```
+
+## Vue app deployment to GitHub Pages
+
+Build the app:
+
+```bash
+npm run build
+```
+
+Navigate to the build output folder:
+
+```bash
+cd dist
+```
+
+Setup git:
+
+```bash
+git init
+
+git add -A
+
+git commit -m "deployment to GH Pages"
+```
+
+Push to the GitHub `gh-pages` branch:
+
+```bash
+git push -f git@github.com:remote-gildor/vue-drizzle-complete-deployment.git master:gh-pages
+```
+
+Then go to GitHub Settings > Options > scroll down to GitHub Pages. The branch should be already set to `gh-pages`.
