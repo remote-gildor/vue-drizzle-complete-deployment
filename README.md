@@ -1,5 +1,7 @@
 # Vue Drizzle - Complete Deployment
 
+> NOT COMPLETED YET
+
 This project shows a complete deployment on a blockchain (a public testnet). The Vue front-end will be uploaded on GitHub Pages.
 
 ## TODO
