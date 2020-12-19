@@ -55,6 +55,18 @@ truffle run verify Value --network goerli
 
 ## Vue app deployment to GitHub Pages
 
+Firstly create a public GitHub repo and note the repository name.
+
+Change the repo name in `vue.config.js`:
+
+```javascript
+module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/your-repo-name/'
+    : '/'
+}
+```
+
 Build the app:
 
 ```bash
