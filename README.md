@@ -32,6 +32,8 @@ If you're getting a `Callback was already called` error, try with the `--skipDry
 truffle migrate --network goerli --skipDryRun
 ```
 
+This flag can also be set up in `truffle-config.js`.
+
 ## Vue dApp
 
 Start the Vue dApp: `npm run serve`.

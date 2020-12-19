@@ -23,6 +23,7 @@ module.exports = {
       network_id: '5', // eslint-disable-line camelcase
       gas: 4465030,
       gasPrice: 10000000000, // 10 GWei
+      skipDryRun: true
     },
 
     // main ethereum network(mainnet)

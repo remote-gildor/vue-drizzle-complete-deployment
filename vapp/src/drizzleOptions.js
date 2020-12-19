@@ -1,14 +1,10 @@
-import Value from './contracts/Value.json'
+import Value from './contracts/Value.json';
 
 const options = {
   web3: {
-    block: false,
-    fallback: {
-      type: 'ws',
-      url: 'ws://127.0.0.1:7545'
-    }
+    block: false
   },
-  contracts: [
+  contracts: [ 
     Value
   ],
   events: {
