@@ -1,12 +1,16 @@
 # Vue Drizzle - Complete Deployment
 
-This project shows a complete deployment on a blockchain (a public testnet). The Vue front-end is uploaded on GitHub Pages: [https://remote-gildor.github.io/vue-drizzle-complete-deployment](https://remote-gildor.github.io/vue-drizzle-complete-deployment).
+This project shows a complete deployment to a blockchain (a public testnet). 
+
+The Vue front-end is uploaded to GitHub Pages: [https://remote-gildor.github.io/vue-drizzle-complete-deployment](https://remote-gildor.github.io/vue-drizzle-complete-deployment). 
+
+The contract is deployed to the Görli testnet, so make sure to set MetaMask to Görli and get yourself some fake ETH here (0.05 is enough): [https://goerli-faucet.slock.it/](https://goerli-faucet.slock.it/).
 
 ## Install npm packages
 
 Run `npm install` command in both root folder and the `vapp` folder.
 
-## Ganache
+## Ganache (localhost blockchain)
 
 Make sure Ganache is running on port **7545**.
 
