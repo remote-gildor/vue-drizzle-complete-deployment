@@ -73,6 +73,23 @@ module.exports = {
 }
 ```
 
+Add the repo name into `router.js`:
+
+```javascript
+routes: [
+        {
+            path: "/",
+            name: "main",
+            component: Main
+        },
+
+        {
+            path: "/your-repo-name-here", // this is needed because of GH Pages
+            name: "ghpages",
+            component: Main
+        },
+```
+
 Build the app:
 
 ```bash
