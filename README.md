@@ -16,6 +16,14 @@ Make sure Ganache is running on port **7545**.
 
 Before you start the Vue dApp, you need to migrate smart contracts to the chain: `truffle migrate`.
 
+## Ignoring the Migrations.sol contract
+
+If you don't want to deploy the `Migrations.sol` contract, use the `--f` flag to deploy from the 2nd migrations step only:
+
+```bash
+truffle migrate --f 2 --reset
+```
+
 ## Deployment to a public chain
 
 ```bash
