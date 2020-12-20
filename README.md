@@ -1,8 +1,6 @@
 # Vue Drizzle - Complete Deployment
 
-> NOT COMPLETED YET
-
-This project shows a complete deployment on a blockchain (a public testnet). The Vue front-end will be uploaded on GitHub Pages.
+This project shows a complete deployment on a blockchain (a public testnet). The Vue front-end is uploaded on GitHub Pages: [https://remote-gildor.github.io/vue-drizzle-complete-deployment](https://remote-gildor.github.io/vue-drizzle-complete-deployment).
 
 ## Install npm packages
 

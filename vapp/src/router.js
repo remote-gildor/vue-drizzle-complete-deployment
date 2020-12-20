@@ -18,6 +18,12 @@ export default new Router({
         },
 
         {
+            path: "/vue-drizzle-complete-deployment", // this is needed because of GH Pages
+            name: "ghpages",
+            component: Main
+        },
+
+        {
             path: "/account",
             name: "account",
             component: Account
